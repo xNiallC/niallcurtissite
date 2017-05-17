@@ -1,0 +1,47 @@
+html {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#backgroundHome {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+#backgroundHome > img {
+    width: 110%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: blur(10px);
+}
+#textArea {
+    opacity: 0;
+    font-size: 40px;
+    width: 40%;
+    height: 40%;
+    top: 30%;
+    left: 30%;
+    position: absolute;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 3.5px;
+}
+#textArea hr {
+    width: 70%;
+}
+#socialLinks {
+    padding: 0 10px 0 10px;
+}
+#socialLinks:hover {
+    text-shadow: 2px 2px 14px #ffffff;
+    color: white;
+}
+.socialButton {
+    text-decoration: none;
+    color: white;
+}

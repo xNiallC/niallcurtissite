@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+nav {
+    width: 100%;
+}
+nav > ul {
+    width: 30%;
+    float: right;
+    list-style: none;
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 20px 3% 0 0;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.7em;
+}
+nav ul li {
+    float: left;
+    padding: 10px 5% 10px 5px;
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+.active {
+    padding-bottom: 3px;
+    border-bottom: 2px solid black;
+}
+.profileImage {
+    height: 100%;
+    position: fixed;
+    top: 40%;
+    bottom: 0;
+}
+.profileImage img {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    bottom: 0%;
+}
+.section {
+    position: relative;
+    width: 70%;
+    float: right;
+}

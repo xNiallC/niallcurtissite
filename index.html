@@ -10,6 +10,20 @@
     $(document).ready(function() {
       $("#backgroundHome #textArea").delay(1000).animate({ opacity: 1 }, 700);
     });
+
+    /*$(document).scroll( function() {
+      var navTop = $('#homeNavbar').offset().top;
+      var nav = $('#homeNavbar');
+      var scrollTop = $(document).scrollTop();
+
+      //fix/unfix as necessary
+      if (navTop < scrollTop) {
+        $(nav).addClass('fixed');
+      }
+      else {
+        $(nav).removeClass('fixed');
+      }
+    });*/
   </script>
 </head>
 <body>
@@ -17,14 +31,35 @@
     <img src="img/coding.jpg" />
     <div id="textArea">
       Niall Curtis<br />
-      <span class="link">- Enter Site -</span><br />
       <a href="#" class="link">- Download my CV -</a>
       <hr />
-      <a class="socialButton" href="http://facebook.com/xniall"><i class="fa fa-facebook-official" id="socialLinks" aria-hidden="true"></i></a>
-      <a class="socialButton" href="http://twitter.com/therealxniall"><i class="fa fa-twitter" id="socialLinks" aria-hidden="true"></i></a>
-      <a class="socialButton" href="https://github.com/xNiallC"><i class="fa fa-github" id="socialLinks"  aria-hidden="true"></i></a><br />
-      <span class="link">CurtisNS@cardiff.ac.uk</span>
+      <a class="socialButton" href="http://facebook.com/xniall" target="_blank"><i class="fa fa-facebook-official" id="socialLinks" aria-hidden="true"></i></a>
+      <a class="socialButton" href="http://twitter.com/therealxniall" target="_blank"><i class="fa fa-twitter" id="socialLinks" aria-hidden="true"></i></a>
+      <a class="socialButton" href="https://github.com/xNiallC" target="_blank"><i class="fa fa-github" id="socialLinks"  aria-hidden="true"></i></a><br />
+      <a href="mailto:CurtisNS@cardiff.ac.uk" class="link">CurtisNS@cardiff.ac.uk</a>
     </div>
+    <p class="scrollForMore">
+        Scroll for more<br />
+        <i class="fa fa-angle-down" aria-hidden="true"></i><br />
+    <p>
   </div>
+  <div class="homeNavbar" id="#homeNavbar">
+    <ul>
+      <li>
+        <a href="#" class="active">Home</a>
+      </li>
+      <li>
+        <a>About</a>
+      </li>
+      <li>
+        <a>Work</a>
+      </li>
+      <li>
+        <a>Contact</a>
+      </li>
+    </ul>
+    <img src="img/niallcropped.png" />
+  </div>
+
 </body>
 </html>

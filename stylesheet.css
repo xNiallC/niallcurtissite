@@ -16,11 +16,6 @@ html {
     border-bottom: solid 3px #000000;
     background-image: url(img/coding.jpg);
 }
-@media screen and (max-device-width: 768px) {
-    #backgroundHome {
-      background-image: url(img/codingmobile.jpg);
-    }
-}
 #textArea {
     opacity: 0;
     font-size: 40px;
@@ -36,6 +31,17 @@ html {
 #textArea hr {
     width: 30%;
     margin: 10px auto 10px auto;
+}
+@media screen and (max-width: 768px) {
+    #backgroundHome {
+      background-image: url(img/codingmobile.jpg);
+    }
+    #textArea {
+      font-size: 68px;
+    }
+    #textArea hr {
+      width: 70%;
+    }
 }
 #socialLinks {
     padding: 5px 10px 5px 10px;

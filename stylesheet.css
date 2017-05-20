@@ -13,33 +13,23 @@ html {
     top: 0;
     bottom: 0;
     overflow: hidden;
-}
-#backgroundHome > img {
-    width: 100%;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    left: 0;
     border-bottom: solid 3px #000000;
+    background-image: url(img/coding.jpg);
 }
 #textArea {
     opacity: 0;
     font-size: 40px;
-    width: 40%;
-    height: 40%;
-    position: absolute;
-    margin: 0 auto;
-    left: 50%;
+    width: 100%;
+    position: relative;
     top: 50%;
-    margin-left: -20%;
-    margin-top: -20%;
+    transform: translateY(-50%);
     color: white;
     padding: 10px;
     text-align: center;
     letter-spacing: 3.5px;
 }
 #textArea hr {
-    width: 70%;
+    width: 30%;
     margin: 10px auto 10px auto;
 }
 #socialLinks {
@@ -65,27 +55,32 @@ a > .link {
 }
 .scrollForMore {
     width: 100%;
-    position: absolute;
+    position: relative;
+    top: 68%;
+    transform: translateY(-68%);
     font-size: 1.3em;
     color: white;
     text-shadow: 1px 1px 5px #ffffff;
     opacity: 0.5;
     text-align: center;
-    bottom: 0;
-    padding: 0;
-    margin: 0 0 6% 0;
 }
 .homeNavbar {
     width: 100%;
-    background-color: #f2f2f2;
+    height: 10%;
+    background-color: #e6e6e6;
+    font-size: 1em;
+}
+.homeNavbar > span {
+    font-size: 2em;
 }
 .homeNavbar > ul {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
     width: 30%;
     float: right;
     list-style: none;
     list-style-type: none;
-    padding: 0;
-    margin: 20px 0 0 0;
     font-family: 'Rubik', sans-serif;
     font-size: 1.7em;
 }
@@ -101,9 +96,4 @@ a > .link {
 .active {
     padding-bottom: 3px;
     border-bottom: 2px solid black;
-}
-.homeNavbar img {
-    position: absolute;
-    height: 20%;
-    width: auto;
 }

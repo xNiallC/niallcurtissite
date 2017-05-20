@@ -16,7 +16,7 @@ html {
     border-bottom: solid 3px #000000;
     background-image: url(img/coding.jpg);
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-device-width: 768px) {
     #backgroundHome {
       background-image: url(img/codingmobile.jpg);
     }

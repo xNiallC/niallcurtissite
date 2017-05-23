@@ -35,6 +35,8 @@ html {
 @media screen and (max-width: 768px) {
     #backgroundHome {
       background-image: url(img/codingmobile.jpg);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
     }
     #textArea {
       font-size: 68px;
